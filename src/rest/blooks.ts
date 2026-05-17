@@ -7,11 +7,19 @@ export class BlooksClient {
         this.rest = rest;
     }
 
-    async getAllBlooks() {
-        return this.rest.get("/data/index.json");
+    async sellBlooks(blookIds: string[]) {
+        return this.rest.put("/blooks/sell-blooks", { blookIds });
     }
 
-    async openPack(packName: string) {
-        return this.rest.post("/worker3/open", { pack: packName });
+    async getAllBlooks() {
+        return this.rest.get("/data/blooks");
+    }
+
+    async getAllPacks() {
+        return this.rest.get("/data/packs");
+    }
+
+    async getAllRarities() {
+        return this.rest.get("/data/rarities");
     }
 }
