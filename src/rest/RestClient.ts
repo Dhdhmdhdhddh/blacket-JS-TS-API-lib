@@ -9,7 +9,7 @@ export class RestClient {
     async get(endpoint: string) {
         const response = await fetch(`${this.baseUrl}${endpoint}`, {
             headers: {
-                "Cookie": `token=${this.token}`
+                "Cookie": `blackettoken=${this.token}`
             }
         });
         return response.json();
