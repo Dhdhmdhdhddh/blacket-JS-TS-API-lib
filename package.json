@@ -1,0 +1,24 @@
+{
+  "name": "blacket-js-ts-api-lib",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dhdhmdhdhddh/blacket-JS-TS-API-lib.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Dhdhmdhdhddh/blacket-JS-TS-API-lib/issues"
+  },
+  "homepage": "https://github.com/Dhdhmdhdhddh/blacket-JS-TS-API-lib#readme",
+  "devDependencies": {
+    "typescript": "^6.0.3"
+  }
+}
